@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <!--
+       上传文件的时候要加上enctype="multipart/form-data"
+    -->
+    <form action="/login/" method="post" enctype="multipart/form-data">
+        <p>
+            <input id="username" name="user" type="text" placeholder="用户名">
+        </p>
+        <p>
+            <input id="password" name="pwd" type="password" placeholder="密码">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+        <p>
+            <input type="file" name="fa">
+        </p>
+    </form>
+</body>
+</html>
